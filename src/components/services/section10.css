@@ -1,0 +1,20 @@
+@media only screen and (max-width: 956px) {
+    .section10_wrapper{
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+    }
+}
+
+@media only screen and (max-width: 833px) {
+    .section10_wrapper{
+        padding-left: 80px !important;
+        padding-right: 80px !important;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .section10_wrapper{
+        padding-left: 60px !important;
+        padding-right: 60px !important;
+    }
+}

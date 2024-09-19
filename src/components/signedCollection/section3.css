@@ -1,0 +1,231 @@
+@media only screen and (max-width: 1632px) {
+    .custom_grid_wrapper{
+        padding-left: 90px !important;
+        padding-right: 90px !important;
+    }
+}
+@media only screen and (max-width: 1360px) {
+    .book_imgs{
+        width: 320px !important;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .book_imgs{
+        width: 300px !important;
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+    .section3_title_1{
+        font-size: 40px !important;
+    }
+    .section3_title_2{
+        font-size: 55px !important;
+    }
+    .signature_img{
+        width: 90% !important;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .section3_title_1{
+        font-size: 30px !important;
+    }
+    .section3_title_2{
+        font-size: 50px !important;
+    }
+    .signature_img{
+        width: 85% !important;
+    }
+}
+
+
+@media only screen and (max-width: 1018px) {
+    .section3_firstPart_wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section3_title_1{
+        font-size: 30px !important;
+    }
+    .section3_title_2{
+        font-size: 50px !important;
+    }
+    .signature_img{
+        width: 70% !important;
+    }
+}
+
+
+@media only screen and (max-width: 639px) {
+    .section3_firstPart_wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section3_title_1{
+        font-size: 30px !important;
+    }
+    .section3_title_2{
+        font-size: 50px !important;
+    }
+    .signature_img{
+        width: 90% !important;
+    }
+    .book_imgs{
+        width: 230px !important;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .section3_firstPart_wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section3_title_1{
+        font-size: 30px !important;
+    }
+    .section3_title_2{
+        font-size: 50px !important;
+    }
+    .signature_img{
+        width: 90% !important;
+    }
+    .book_imgs{
+        width: 200px !important;
+    }
+}
+
+
+@media only screen and (max-width: 552px) {
+    .section3_firstPart_wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section3_title_1{
+        font-size: 30px !important;
+    }
+    .section3_title_2{
+        font-size: 50px !important;
+    }
+    .signature_img{
+        width: 90% !important;
+    }
+    .book_imgs{
+        width: 180px !important;
+    }
+}
+
+
+@media only screen and (max-width: 515px) {
+    .section3_firstPart_wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section3_title_1{
+        font-size: 30px !important;
+    }
+    .section3_title_2{
+        font-size: 50px !important;
+    }
+    .signature_img{
+        width: 90% !important;
+    }
+    .book_imgs{
+        width: 160px !important;
+    }
+    .custom_grid_wrapper{
+        padding-left: 70px !important;
+        padding-right: 70px !important;
+    }
+}
+
+
+@media only screen and (max-width: 495px) {
+    .section3_firstPart_wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section3_title_1{
+        font-size: 30px !important;
+    }
+    .section3_title_2{
+        font-size: 50px !important;
+    }
+    .signature_img{
+        width: 90% !important;
+    }
+    .book_imgs{
+        width: 140px !important;
+    }
+    .custom_grid_wrapper{
+        padding-left: 60px !important;
+        padding-right: 60px !important;
+    }
+}
+
+
+@media only screen and (max-width: 463px) {
+    .section3_firstPart_wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section3_title_1{
+        font-size: 30px !important;
+    }
+    .section3_title_2{
+        font-size: 50px !important;
+    }
+    .signature_img{
+        width: 90% !important;
+    }
+    .book_imgs{
+        width: 120px !important;
+    }
+    .custom_grid_wrapper{
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+}
+
+
+@media only screen and (max-width: 430px) {
+    .section3_firstPart_wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section3_title_1{
+        font-size: 30px !important;
+    }
+    .section3_title_2{
+        font-size: 50px !important;
+    }
+    .signature_img{
+        width: 90% !important;
+    }
+    .book_imgs{
+        width: 150px !important;
+    }
+    .custom_grid_wrapper{
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+}
+

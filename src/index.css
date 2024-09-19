@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Act_Of_Reject font family declare here */
+
+@font-face {
+  font-family: 'act_Of_Rejection';
+  src: url('/public/fonts/Act_Of_Rejection.ttf') format('truetype');;
+  font-display: swap;
+  
+}
+
+.Act_Of_Rejection{
+  font-family: 'act_Of_Rejection';
+}
+
+.monts {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.bg-content1{
+  background-color: transparent !important;
+}
+
+.outline_text {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      color: transparent;
+      -webkit-text-stroke: 1px #060606;
+    }
