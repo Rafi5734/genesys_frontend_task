@@ -22,6 +22,7 @@ import LinkedinIcon from "../../assets/Icon/LinkedinIcon";
 import InstagramIcon from "../../assets/Icon/InstagramIcon";
 import LeftIcon from "../../assets/Icon/LeftIcon";
 import RightIcon from "../../assets/Icon/RightIcon";
+import CountUp from "react-countup";
 
 const Section9 = () => {
   const [text] = useTypewriter({
@@ -31,29 +32,29 @@ const Section9 = () => {
   });
 
   const productImages = [bag2Img, Red1bag, Red2bag, backBag];
-  
+
   const [currentIndex, setCurrentIndex] = useState(0);
   const [fade, setFade] = useState(true);
 
-    const handleNext = () => {
-      setFade(false);
-      setTimeout(() => {
-        setCurrentIndex((prevIndex) =>
-          prevIndex < productImages.length - 1 ? prevIndex + 1 : 0
-        );
-        setFade(true);
-      }, 300); 
-    };
-  
-    const handlePrevious = () => {
-      setFade(false);
-      setTimeout(() => {
-        setCurrentIndex((prevIndex) =>
-          prevIndex > 0 ? prevIndex - 1 : productImages.length - 1
-        );
-        setFade(true);
-      }, 300);
-    };
+  const handleNext = () => {
+    setFade(false);
+    setTimeout(() => {
+      setCurrentIndex((prevIndex) =>
+        prevIndex < productImages.length - 1 ? prevIndex + 1 : 0
+      );
+      setFade(true);
+    }, 300);
+  };
+
+  const handlePrevious = () => {
+    setFade(false);
+    setTimeout(() => {
+      setCurrentIndex((prevIndex) =>
+        prevIndex > 0 ? prevIndex - 1 : productImages.length - 1
+      );
+      setFade(true);
+    }, 300);
+  };
   return (
     <div className="bg-[#F6F5F5] overflow-hidden pt-[129px] ps-[150px] pe-[150px] pb-[100px] section9_wrapper">
       <div>
@@ -165,7 +166,17 @@ const Section9 = () => {
               </p>
 
               <p className="text-[#272312] monts text-2xl	font-semibold mt-4 leading-7">
-                Price: <span className="ms-3 text-[#EA2127]">$199.95</span>
+                Price:{" "}
+                <span className="ms-3 text-[#EA2127]">
+                  $
+                  <CountUp
+                    decimals={2}
+                    decimal="."
+                    start={0}
+                    end={199.95}
+                    duration={2.75}
+                  />
+                </span>
               </p>
               <div className="flex flex-row items-center mt-8 button_group_wrapper">
                 <p className="inter text-[#060606] text-xl font-semibold leading-6 ">
