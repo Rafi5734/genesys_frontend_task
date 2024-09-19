@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./styles/fonts.css";
+import "./App.css";
 import Loader from "./utils/loader/Loader";
 import TopNavbar from "./components/topNavbar/TopNavbar";
 import HeroSection from "./components/heroSection/HeroSection";

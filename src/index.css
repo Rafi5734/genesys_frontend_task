@@ -2,24 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
-
 
 /* Act_Of_Reject font family declare here */
 
 @font-face {
-  font-family: 'act_Of_Rejection';
-  src: url('/public/fonts/Act_Of_Rejection.ttf') format('truetype');;
+  font-family: "act_Of_Rejection";
+  src: url("/public/fonts/Act_Of_Rejection.ttf") format("truetype");
   font-display: swap;
-  
 }
 
-.Act_Of_Rejection{
-  font-family: 'act_Of_Rejection';
+.Act_Of_Rejection {
+  font-family: "act_Of_Rejection";
 }
 
 .monts {
@@ -32,13 +31,34 @@
   font-optical-sizing: auto;
 }
 
-.bg-content1{
+.bg-content1 {
   background-color: transparent !important;
 }
 
 .outline_text {
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 600;
-      color: transparent;
-      -webkit-text-stroke: 1px #060606;
-    }
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: transparent;
+  -webkit-text-stroke: 1px #060606;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #f6f5f5; 
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: #4c4a8e;
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3c2f65; 
+}
